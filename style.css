@@ -97,6 +97,7 @@ nav a{
     padding: 130px;
     border-radius: 10px;
     background: #fff8f3;
+    text-align: center;
 }
 .section-title{
     color: #181818;
@@ -130,4 +131,78 @@ nav a{
     margin-top: 05px;
     color: #757575;
 
+}
+#what-i-do-bio{
+    padding: 30px 150px;
+    margin: 0 150px;
+}
+/*skills*/
+.skills-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: 0 150px;
+    margin-bottom: 130px;
+    
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #faf0f0;
+    box-shadow: 1px 6px 5px 0px rgba(0, 0, 0, 0.06);  
+}
+.skill-bio{
+    color: #757575;
+
+}
+
+
+
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display:flex;
+    gap: 70px;
+    margin: 0px 150px;
+    justify-content: center;
+    
+}
+.resume-container hr{
+    margin: 30px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institute, .resume-item-bio{
+    color: #757575;
+}
+.download-cv{
+    margin:  50px 0px;
+    text-align: center;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    gap: 100px
+;
+    background-color: #fff8f3;
+    padding: 130px 230px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+
+}
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: none;
 }
